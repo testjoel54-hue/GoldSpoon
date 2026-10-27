@@ -1,0 +1,13 @@
+{
+  "name": "gold-spoon-bilingual-restaurant-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Premium bilingual Korean restaurant website for Gold Spoon 금수저",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs site",
+    "build": "node tools/build.mjs",
+    "preview": "node tools/serve.mjs dist"
+  },
+  "engines": { "node": ">=18" }
+}
